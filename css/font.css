@@ -7,4 +7,9 @@
   font-family: "PTSans";
   src: url("../fonts/PT.ttf");
 }
+
+@font-face {
+  font-family: "ArialRegular";
+  src: url("../fonts/Arial.ttf");
+}
 /*# sourceMappingURL=font.css.map */

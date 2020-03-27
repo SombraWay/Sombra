@@ -225,4 +225,67 @@
   color: #a161db;
   text-align: center;
 }
+
+.staff {
+  width: 100%;
+  height: 1439px;
+  background-color: #ebebeb;
+}
+
+.cont-sstaff {
+  width: 960px;
+  height: 100%;
+}
+
+.humble {
+  font-family: ArialRegular;
+  font-size: 36px;
+  line-height: 22px;
+  color: #717171;
+  text-align: center;
+}
+
+.well {
+  font-family: ArialRegular;
+  font-size: 14px;
+  line-height: 22px;
+  color: #717171;
+  text-align: center;
+}
+
+.pepar {
+  background-color: white;
+  height: 477px;
+  width: 460px;
+}
+
+.par {
+  font-family: ArialRegular;
+  font-size: 30px;
+  line-height: 30px;
+  color: #717171;
+  text-align: center;
+}
+
+.disc {
+  font-family: ArialRegular;
+  font-size: 14px;
+  line-height: 25px;
+  color: #6017a3;
+  text-align: center;
+}
+
+.diss {
+  font-family: ArialRegular;
+  font-size: 12px;
+  line-height: 22px;
+  color: #949494;
+  text-align: center;
+}
+
+.wind {
+  background-color: white;
+  width: 960px;
+  height: 357px;
+}
 /*# sourceMappingURL=style.css.map */

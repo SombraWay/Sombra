@@ -12,4 +12,9 @@
   font-family: "ArialRegular";
   src: url("../fonts/Arial.ttf");
 }
+
+@font-face {
+  font-family: "MyriadPro";
+  src: url("../fonts/ofont.ru_Myriad Pro.ttf");
+}
 /*# sourceMappingURL=font.css.map */

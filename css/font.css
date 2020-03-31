@@ -16,5 +16,9 @@
 @font-face {
   font-family: "MyriadPro";
   src: url("../fonts/ofont.ru_Myriad Pro.ttf");
+  @font-face {
+    font-family: "helveticaregular";
+    src: url("../fonts/helvetica.otf");
+  }
 }
 /*# sourceMappingURL=font.css.map */

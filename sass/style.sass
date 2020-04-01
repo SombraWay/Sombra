@@ -10,6 +10,7 @@
     width: 100%
     height: 238px
     background-color: #ebebeb
+    border-bottom: solid #701dbb 10px
 .logo
     padding-top: 34px
 
@@ -19,7 +20,7 @@
     font-size: 12px
     line-height: 71px
     font-family: 'NovaBold'
-    left: 18px
+    left: 52px
     position: relative
 
 .dropdown
@@ -27,7 +28,7 @@
     font-family: 'NovaBold'
     font-size: 12px
     line-height: 71px
-    left: 20px
+    left: 55px
 .dropdownserch  
     display: flex
     align-items: center
@@ -40,7 +41,7 @@
     background-position: 265px
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.004)
     position: relative
-    left: 47px
+    left: 77px
 .menu
     height: 50%
     width: 100%
@@ -50,25 +51,31 @@
     width: 100%
     height: 100%
     &-menu
-     width: 16%;
-     height: 100%;
+     width: 16.6%
+     height: 100%
      box-shadow: rgba(0, 0, 0, 0.16) 0px 5px 5px 0px;
      background: linear-gradient(#ffffff, #e5e5e5);
+     text-align: center
      &__img
       display: block   
       margin: auto
-      padding: 17px 0px 0px 0px
+      padding: 26px 0px 0px 0px
      &__discription
-         text-align: center
          font-size: 17px
          line-height: 41px
          color: #707070
          font-family: PTSans
+     &__discription:hover  
+         .nav-menu
+           background: black
+             
+
+
          
          
 .services        
     width: 100%
-    height: 1330px
+    height: 1430px
     background-color: #2d2d2d
 .imgwithserch
     width: 100%
@@ -327,6 +334,28 @@
     font-size: 11px
     line-height: 21px
     color: #7e7e7e
+.active   
+  
+    position: relative
+    bottom: 10px
+    position: relative
+    border-bottom: solid #701dbb 5px
+    background: linear-gradient(#ffffff, #ffffff);
+   
+    .nav-menu__discription
+         color: #701dbb
+    .nav-menu  
+         background-color: white
+
+@media (max-width: 992px) 
+    .search
+        left: 147px
+        bottom: 60px
+
+        
+
+
+
    
     
 

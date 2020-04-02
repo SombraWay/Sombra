@@ -167,19 +167,25 @@
 
 .lineone {
   position: relative;
-  left: 70px;
+  left: 160px;
   top: 20px;
 }
 
 .sky {
   position: relative;
-  left: 105px;
+  left: 219px;
   top: 10px;
 }
 
 .box {
   position: relative;
-  left: 100px;
+  left: 350px;
+}
+
+.linetwo {
+  position: relative;
+  left: 280px;
+  top: 20px;
 }
 
 .save {
@@ -225,7 +231,7 @@
 }
 
 .phone {
-  width: 960px;
+  width: 100%;
   height: 100%;
   margin: auto;
   padding-top: 103px;
@@ -494,9 +500,104 @@
 }
 
 @media (max-width: 992px) {
-  .search {
+  .serch {
     left: 147px;
     bottom: 60px;
+  }
+  .circle {
+    position: relative;
+    left: 35px;
+  }
+  .lineone {
+    position: relative;
+    left: 70px;
+    top: 20px;
+  }
+  .sky {
+    position: relative;
+    left: 105px;
+    top: 10px;
+  }
+  .box {
+    position: relative;
+    left: 180px;
+  }
+  .linetwo {
+    position: relative;
+    left: 140px;
+    top: 20px;
+  }
+  .save {
+    padding-left: 30px;
+  }
+  .save-paragraph {
+    font-size: 19px;
+  }
+  .services {
+    height: 1630px;
+  }
+  .backgroun {
+    width: 94%;
+  }
+  .gradient {
+    width: 92%;
+  }
+  .circletwo {
+    position: relative;
+    left: 50px;
+  }
+  .lineoneone {
+    position: relative;
+    left: 20px;
+    top: 20px;
+  }
+  .sskytwo {
+    position: relative;
+    top: 10px;
+    right: 30px;
+  }
+  .linetwotwo {
+    position: relative;
+    top: 20px;
+    right: 50px;
+  }
+  .boxtwo {
+    position: relative;
+    right: 90px;
+  }
+  .name {
+    font-size: 22px;
+  }
+  .discript {
+    font-size: 18px;
+  }
+  .pepar {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .staff {
+    height: 1929px;
+  }
+  .wind-block {
+    width: 100%;
+  }
+  .menufooter {
+    float: right;
+    padding-top: 4%;
+    margin-right: 17%;
+  }
+  .wrapper {
+    height: 716px;
+  }
+  .afooter {
+    font-size: 16px;
+  }
+  .discriptionfooter {
+    font-size: 18px;
+  }
+  .socialparagraph {
+    font-size: 18px;
   }
 }
 /*# sourceMappingURL=style.css.map */

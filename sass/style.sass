@@ -344,6 +344,9 @@
     position: relative
     border-bottom: solid #701dbb 5px
     background: linear-gradient(#ffffff, #ffffff);
+.disab  
+    display: none
+    padding-top: 7%;
    
     .nav-menu__discription
          color: #701dbb
@@ -429,11 +432,14 @@
 
 @media (max-width: 768px) 
     .serch
-       left: 20%
+       display: none
+    .dropdownserch
+        display: none   
     .logo
-       top: 30%
-       position: relative
-       right: 10%
+       display: block
+       margin: auto
+       
+      
     .anywere
         font-size: 30px
     .mean
@@ -458,10 +464,20 @@
         left: 25%    
     .staff
         height: 2729px;
+    .nav
+        display: none    
+    .disab    
+        display: block
+        margin: auto
+        width: 100%
+    .dropsize  
+        width: inherit
+        font-size: 150%; 
+    .container
+       width: 100%;     
 
 @media (max-width: 580px)   
-    .container 
-          width: 560px;
+  
     .anywere    
           font-size: 50px; 
           line-height: 50px;
